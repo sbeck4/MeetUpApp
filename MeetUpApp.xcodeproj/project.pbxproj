@@ -14,6 +14,11 @@
 		83D2E99F1A6DAECB00F88C27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D2E99E1A6DAECB00F88C27 /* Images.xcassets */; };
 		83D2E9A21A6DAECB00F88C27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D2E9A01A6DAECB00F88C27 /* LaunchScreen.xib */; };
 		83D2E9AE1A6DAECB00F88C27 /* MeetUpAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2E9AD1A6DAECB00F88C27 /* MeetUpAppTests.m */; };
+		83D2E9B91A6DBCCB00F88C27 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2E9B81A6DBCCB00F88C27 /* Events.m */; };
+		83D2E9BC1A6DCEB000F88C27 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2E9BB1A6DCEB000F88C27 /* DetailViewController.m */; };
+		83D2E9BF1A6DD19A00F88C27 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D2E9BE1A6DD19A00F88C27 /* WebViewController.m */; };
+		83D2E9C11A6DEC8500F88C27 /* meetup-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D2E9C01A6DEC8500F88C27 /* meetup-icon.png */; };
+		83D2E9C31A6DED0D00F88C27 /* meetup-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D2E9C21A6DED0D00F88C27 /* meetup-icon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,14 @@
 		83D2E9A71A6DAECB00F88C27 /* MeetUpAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetUpAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D2E9AC1A6DAECB00F88C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D2E9AD1A6DAECB00F88C27 /* MeetUpAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetUpAppTests.m; sourceTree = "<group>"; };
+		83D2E9B71A6DBCCB00F88C27 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		83D2E9B81A6DBCCB00F88C27 /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		83D2E9BA1A6DCEB000F88C27 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		83D2E9BB1A6DCEB000F88C27 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		83D2E9BD1A6DD19A00F88C27 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		83D2E9BE1A6DD19A00F88C27 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		83D2E9C01A6DEC8500F88C27 /* meetup-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meetup-icon.png"; sourceTree = "<group>"; };
+		83D2E9C21A6DED0D00F88C27 /* meetup-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meetup-icon2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +98,13 @@
 				83D2E9961A6DAECB00F88C27 /* AppDelegate.m */,
 				83D2E9981A6DAECB00F88C27 /* ViewController.h */,
 				83D2E9991A6DAECB00F88C27 /* ViewController.m */,
+				83D2E9BA1A6DCEB000F88C27 /* DetailViewController.h */,
+				83D2E9BB1A6DCEB000F88C27 /* DetailViewController.m */,
+				83D2E9B71A6DBCCB00F88C27 /* Events.h */,
+				83D2E9B81A6DBCCB00F88C27 /* Events.m */,
 				83D2E99B1A6DAECB00F88C27 /* Main.storyboard */,
+				83D2E9BD1A6DD19A00F88C27 /* WebViewController.h */,
+				83D2E9BE1A6DD19A00F88C27 /* WebViewController.m */,
 				83D2E99E1A6DAECB00F88C27 /* Images.xcassets */,
 				83D2E9A01A6DAECB00F88C27 /* LaunchScreen.xib */,
 				83D2E9911A6DAECB00F88C27 /* Supporting Files */,
@@ -96,6 +115,8 @@
 		83D2E9911A6DAECB00F88C27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83D2E9C01A6DEC8500F88C27 /* meetup-icon.png */,
+				83D2E9C21A6DED0D00F88C27 /* meetup-icon2.png */,
 				83D2E9921A6DAECB00F88C27 /* Info.plist */,
 				83D2E9931A6DAECB00F88C27 /* main.m */,
 			);
@@ -199,7 +220,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D2E9C11A6DEC8500F88C27 /* meetup-icon.png in Resources */,
 				83D2E99D1A6DAECB00F88C27 /* Main.storyboard in Resources */,
+				83D2E9C31A6DED0D00F88C27 /* meetup-icon2.png in Resources */,
 				83D2E9A21A6DAECB00F88C27 /* LaunchScreen.xib in Resources */,
 				83D2E99F1A6DAECB00F88C27 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D2E9BC1A6DCEB000F88C27 /* DetailViewController.m in Sources */,
+				83D2E9BF1A6DD19A00F88C27 /* WebViewController.m in Sources */,
+				83D2E9B91A6DBCCB00F88C27 /* Events.m in Sources */,
 				83D2E99A1A6DAECB00F88C27 /* ViewController.m in Sources */,
 				83D2E9971A6DAECB00F88C27 /* AppDelegate.m in Sources */,
 				83D2E9941A6DAECB00F88C27 /* main.m in Sources */,
